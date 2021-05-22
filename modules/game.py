@@ -1,4 +1,4 @@
-
+from modules.player import Player
 
 def play(choice_1,choice_2):
     if choice_1 == "rock" and choice_2 == "scissors":
@@ -19,3 +19,10 @@ def play(choice_1,choice_2):
         return "Player 1"
     elif choice_1 == "scissors" and choice_2 == "scissors":
         return "nobody, as its a Draw"
+
+
+
+# def new_player():
+#     Player.name = input("what is your name?")
+    
+    
